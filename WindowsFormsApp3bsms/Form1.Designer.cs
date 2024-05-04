@@ -32,6 +32,7 @@ namespace WindowsFormsApp3bsms
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -107,6 +108,7 @@ namespace WindowsFormsApp3bsms
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(111)))), ((int)(((byte)(82)))));
+            this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
@@ -115,6 +117,16 @@ namespace WindowsFormsApp3bsms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1262, 44);
             this.panel1.TabIndex = 0;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(454, 11);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 3;
+            this.button12.Text = "button12";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // pictureBox1
             // 
@@ -662,6 +674,7 @@ namespace WindowsFormsApp3bsms
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CERTIFICATION";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -740,6 +753,7 @@ namespace WindowsFormsApp3bsms
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Timer reportTransition;
+        private System.Windows.Forms.Button button12;
     }
 }
 

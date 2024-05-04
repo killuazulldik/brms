@@ -516,6 +516,18 @@ namespace WindowsFormsApp3bsms
         {
             kprecs = null; 
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            login log = new login();
+            log.Show();
+            this.Hide();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+          
+        }
     }
     }
 

@@ -29,8 +29,10 @@ namespace WindowsFormsApp3bsms
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             residentForm rsdform = new residentForm();
             rsdform.Show();
+            
         }
     }
 }

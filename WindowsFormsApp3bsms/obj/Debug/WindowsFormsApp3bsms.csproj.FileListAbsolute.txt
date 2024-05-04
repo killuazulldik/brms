@@ -25,3 +25,7 @@ C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\D
 C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.monthlyreport.resources
 C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.roadreport.resources
 C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.weeklyreport.resources
+C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.login.resources
+C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.householdForm.resources
+C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.BHW.resources
+C:\Users\SCC COMLAB\source\repos\WindowsFormsApp3bsms\WindowsFormsApp3bsms\obj\Debug\WindowsFormsApp3bsms.Inventory.resources

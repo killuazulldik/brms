@@ -16,5 +16,17 @@ namespace WindowsFormsApp3bsms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.ShowDialog();
+            form.Close();
+        }
+
+        private void residentForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+       
+        }
     }
 }

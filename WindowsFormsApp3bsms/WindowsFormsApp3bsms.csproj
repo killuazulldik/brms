@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BHW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BHW.Designer.cs">
+      <DependentUpon>BHW.cs</DependentUpon>
+    </Compile>
     <Compile Include="blotterrecord.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,11 +114,23 @@
     <Compile Include="household.Designer.cs">
       <DependentUpon>household.cs</DependentUpon>
     </Compile>
+    <Compile Include="householdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="householdForm.Designer.cs">
+      <DependentUpon>householdForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="housemapping.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="housemapping.Designer.cs">
       <DependentUpon>housemapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
     </Compile>
     <Compile Include="kprecord.cs">
       <SubType>Form</SubType>
@@ -123,6 +143,12 @@
     </Compile>
     <Compile Include="kpreport.Designer.cs">
       <DependentUpon>kpreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="monthlyreport.cs">
       <SubType>Form</SubType>
@@ -150,12 +176,25 @@
     <Compile Include="roadreport.Designer.cs">
       <DependentUpon>roadreport.cs</DependentUpon>
     </Compile>
+    <Compile Include="sampleDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sampleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sampleDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sampleDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="weeklyreport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="weeklyreport.Designer.cs">
       <DependentUpon>weeklyreport.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BHW.resx">
+      <DependentUpon>BHW.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="blotterrecord.resx">
       <DependentUpon>blotterrecord.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,14 +225,23 @@
     <EmbeddedResource Include="household.resx">
       <DependentUpon>household.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="householdForm.resx">
+      <DependentUpon>householdForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="housemapping.resx">
       <DependentUpon>housemapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="kprecord.resx">
       <DependentUpon>kprecord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="kpreport.resx">
       <DependentUpon>kpreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="monthlyreport.resx">
       <DependentUpon>monthlyreport.cs</DependentUpon>
@@ -228,6 +276,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="sampleDataSet.xsc">
+      <DependentUpon>sampleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sampleDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sampleDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sampleDataSet.xss">
+      <DependentUpon>sampleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sampleDataSet1.xsc">
+      <DependentUpon>sampleDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sampleDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sampleDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sampleDataSet1.xss">
+      <DependentUpon>sampleDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

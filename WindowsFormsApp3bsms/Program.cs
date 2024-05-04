@@ -16,7 +16,10 @@ namespace WindowsFormsApp3bsms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            login log = new login();
+            log.Show();
+            Application.Run();
+            //Application.Run(new login());
         }
     }
 }
